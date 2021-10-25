@@ -17,10 +17,12 @@ public class DemoApplication {
     @GetMapping("/hello-spring")
     String greet(){
         return "Hello, Spring!";
+
     }
 
-    @PostMapping("/test")
+    @PostMapping("/test1")
     String test(){
         return "Hello, test!";
+
     }
 }
