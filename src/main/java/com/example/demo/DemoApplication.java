@@ -14,9 +14,9 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping("/hello-spring")
+    @GetMapping("/hello-springboot")
     String greet(){
-        return "Hello, Spring!";
+        return "Hello, Spring!!";
     }
 
     @PostMapping("/test")
